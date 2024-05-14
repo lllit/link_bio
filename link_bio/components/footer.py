@@ -6,12 +6,12 @@ from link_bio.styles.colors import Color, TextColor
 
 def footer() -> rx.Component:
     return rx.vstack(
-        rx.image(
+        rx.avatar(
             src="/logotipo.jpg", 
             width=Size.VERY_BIG.value,
             height=Size.VERY_BIG.value,
             alt="Logotipo de LLLIT",
-            border=f"4px solid {Color.SECONDARY.value}"
+            border=f"2px solid {Color.SECONDARY.value}"
         ),
         rx.link(
             rx.box(

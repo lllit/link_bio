@@ -3,10 +3,11 @@ from enum import Enum
 
 class Color(Enum):
     PRIMARY = "#14A1F0"
-    SECONDARY = "#087ec4"
-    BACKGROUND = "#0C151D"
-    CONTENT = "#171F26",
+    SECONDARY = "#0c1a01"
+    BACKGROUND = "#0d0f0f"
+    CONTENT = "#151717",
     PURPLE = "#9146ff"
+    YELLOW = "#6ced02"
 
 class TextColor(Enum):
     HEADER = "#F1F2F4"

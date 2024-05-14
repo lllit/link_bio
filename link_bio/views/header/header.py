@@ -33,7 +33,7 @@ def header() -> rx.Component:
                     color=TextColor.BODY.value,
                     bg=Color.CONTENT.value,
                     padding="1px",
-                    border=f"4px solid {Color.SECONDARY.value}"
+                    border=f"4px solid {Color.YELLOW.value}"
                 ), 
             ),
             rx.vstack(
