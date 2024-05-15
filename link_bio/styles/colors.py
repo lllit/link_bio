@@ -13,3 +13,7 @@ class TextColor(Enum):
     HEADER = "#F1F2F4"
     BODY = "#C3C7CB"
     FOOTER = "#A3ABB2"
+    
+class bg_image(Enum):
+    navbar_bg = "center/cover url('/navbar.jpg')"
+    back_bg = "url('/bg.png')"

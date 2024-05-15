@@ -2,7 +2,7 @@ import reflex as rx
 import link_bio.styles.styles as styles
 import link_bio.constants as const
 from link_bio.styles.styles import Size as Size
-from link_bio.styles.colors import Color, TextColor
+from link_bio.styles.colors import Color, TextColor, bg_image
 
 
 def navbar() -> rx.Component:
@@ -22,10 +22,10 @@ def navbar() -> rx.Component:
                 style=styles.navbar_title_style   
             ),
             href=const.INSTAGRAM_URL,
-            is_external=True,
+            is_external=True,  
         ),
         position="sticky",
-        bg=Color.CONTENT.value,
+        background="center/cover url('/bann.gif')",
         padding_x=Size.BIG.value,
         padding_y=Size.DEFAULT.value,
         z_index="999",  

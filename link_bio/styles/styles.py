@@ -2,6 +2,7 @@ import reflex as rx
 from enum import Enum
 from .colors import Color, TextColor
 from .fonts import Font, FontWeight
+from link_bio.styles.colors import Color, TextColor, bg_image
 
 # Constants
 MAX_WIDTH="560px"
@@ -42,7 +43,7 @@ class Spacing(Enum):
 BASE_STYLES = {
     "font_family": Font.DEFAULT.value,
     "font_weight": FontWeight.LIGHT.value,
-    "background_color": Color.BACKGROUND.value,
+    "background": bg_image.back_bg,
     rx.heading: {
         "color": TextColor.HEADER.value,
         "font_family": Font.TITLE.value,
