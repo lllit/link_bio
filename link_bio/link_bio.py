@@ -45,4 +45,3 @@ app.add_page(
     index,
     image="favicon.ico"
 )
-app.compile()
