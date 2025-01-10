@@ -48,7 +48,7 @@ def links() -> rx.Component:
         ),  
         link_button(
             "Vimeo",
-            "Algunos videos",
+            "Algunos videos en vimeo",
             "/icons/vimeo.svg",
             const.VIMEO_URL
         ),
