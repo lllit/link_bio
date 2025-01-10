@@ -38,9 +38,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Build Reflex App
+    - name: Export Reflex App
       run: |
-        reflex build --output-dir build/web
+        reflex export --output-dir build/web
 
     - name: Upload Artifact
       uses: actions/upload-pages-artifact@v3
