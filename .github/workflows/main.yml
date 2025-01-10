@@ -40,7 +40,11 @@ jobs:
 
     - name: Export Reflex App
       run: |
-        reflex export --output-dir build/web
+        reflex export --zip-dest-dir build/web
+
+    - name: Unzip Exported Files
+      run: |
+        unzip build/web/frontend.zip -d build/web
 
     - name: Upload Artifact
       uses: actions/upload-pages-artifact@v3
