@@ -17,6 +17,5 @@ jobs:
         with:
           auth_token: ${{ secrets.REFLEX_AUTH_TOKEN }}
           project_id: ${{ secrets.REFLEX_PROJECT_ID }}
-          app_directory: "my-app-folder" # Opcional, por defecto es la raíz
-          extra_args: "--env THIRD_PARTY_APIKEY=***" # Opcional
+          app_directory: "link_bio/" # Opcional, por defecto es la raíz
           python_version: "3.12" # Opcional
