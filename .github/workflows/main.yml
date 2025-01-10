@@ -17,5 +17,5 @@ jobs:
         with:
           auth_token: ${{ secrets.REFLEX_AUTH_TOKEN }}
           project_id: ${{ secrets.REFLEX_PROJECT_ID }}
-          app_directory: "link_bio/" # Opcional, por defecto es la raíz
+          app_directory: "link_bio" # Opcional, por defecto es la raíz
           python_version: "3.12" # Opcional
