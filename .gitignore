@@ -6,3 +6,5 @@ assets/external/
 .web
 __pycache__/
 venv
+
+Dockerfile
