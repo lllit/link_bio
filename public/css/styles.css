@@ -1,0 +1,15 @@
+
+@keyframes blinker {
+    0% { opacity: 100; }
+}
+
+.blink {
+    animation: blinker 1.5s linear infinite;
+}
+
+/*background-image: url("/assets/bg.png");*/
+
+/* Eliminar en futuras versiones de Reflex */
+:root, .light, .light-theme {
+    --color-page-background: #0d0f0f !important;
+}
